@@ -1,0 +1,47 @@
+# Lazy.nvim plugin directory
+lazy-lock.json
+
+# Plugin manager data
+/plugin/
+/after/
+
+# Lazy.nvim
+.lazy/
+
+# Mason (LSP installer) binaries
+/lua/plugins/mason/
+
+# Undo history
+*~
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# Neovim runtime
+/spell/*.spl
+/spell/*.sug
+
+# Log files
+*.log
+
+# Session files
+Session.vim
+.session
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# LSP/Debug
+.luarc.json
+.stylua.toml
+
+# Personal/local configs (if you have any)
+local.lua
+local/
