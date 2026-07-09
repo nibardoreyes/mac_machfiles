@@ -81,3 +81,11 @@ alias e='yazi'
 # Key Bindings
 # ============================================
 bindkey -s '^f' 'source ~/.config/scripts/fuzzy_dir.sh\n'
+
+# ============================================
+# NVM (Node Version Manager)
+# ============================================ 
+export NVM_DIR="$HOME/.nvm"
+
+[ -s "$(brew --prefix nvm)/nvm.sh" ] && \. "$(brew --prefix nvm)/nvm.sh"
+[ -s "$(brew --prefix nvm)/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix nvm)/etc/bash_completion.d/nvm"
